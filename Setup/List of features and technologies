@@ -1,0 +1,22 @@
+Key features include:
+
+	Patient ID
+
+	Age (years)
+
+	Gender
+
+	Primary diagnosis (e.g., diabetes, cardiovascular disease)
+
+	Comorbidities (e.g., hypertension, HIV)
+
+	Number of previous hospital visits in past 12 months
+
+	Length of stay (days)
+
+	Treatment plan (e.g., medication, surgery)
+
+	Discharge condition (recovered, under care, referred)
+
+	Readmission status (binary: 0 = No, 1 = Yes)
+
