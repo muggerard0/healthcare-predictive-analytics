@@ -1,0 +1,60 @@
+1. Prerequisites
+
+•	Python 3.8 or higher
+
+•	Git installed
+
+•	Docker (optional, for containerized deployment)
+
+2. Clone the Repository
+
+git clone https://github.com/yourusername/healthcare-predictive-analytics-rwanda.git
+
+cd healthcare-predictive-analytics-rwanda
+
+URL Example:
+
+https://github.com/muggerard0/healthcare-predictive-analytics-rwanda
+
+3. Create a Virtual Environment
+
+python -m venv venv
+
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+4. Install Dependencies
+
+pip install -r requirements.txt
+
+5. Run Data Preprocessing and Model Training
+
+python src/train_model.py
+
+6. Run the Prediction API or Dashboard
+
+•	API (FastAPI):
+
+uvicorn app.main:app --reload
+
+•	Dashboard (Streamlit):
+
+streamlit run app/dashboard.py
+
+7. Testing
+
+pytest tests/
+
+8. Docker Container (Optional)
+
+docker build -t healthcare-predictive-analytics .
+
+docker run -p 8000:8000 healthcare-predictive-analytics
+
+9. Notes
+
+•	Ensure the dataset is placed in the data/ folder.
+
+•	Modify config.yaml as needed.
+
+
+
